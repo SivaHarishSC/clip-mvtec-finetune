@@ -1,0 +1,29 @@
+# Data / large artifacts
+data/raw/
+data/processed/
+data/*.zip
+checkpoints/
+*.onnx
+*.safetensors
+*.pt
+*.bin
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.claude/
+
+# Secrets
+kaggle.json
+*.env

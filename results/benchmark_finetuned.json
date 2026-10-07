@@ -1,0 +1,23 @@
+{
+  "label": "finetuned",
+  "quantization": "none",
+  "split": "test",
+  "n_images": 794,
+  "latency_ms_per_query": 1.176089375076117,
+  "peak_vram_mb": 641.32096,
+  "gpu_temp_c_before": 49.0,
+  "gpu_temp_c_after": 54.0,
+  "thermal_throttle_suspected": false,
+  "recall": {
+    "image_to_text": {
+      "1": 0.8400503993034363,
+      "5": 0.986146092414856,
+      "10": 1.0
+    },
+    "text_to_image": {
+      "1": 0.7272727272727273,
+      "5": 0.9659090909090909,
+      "10": 1.0
+    }
+  }
+}
